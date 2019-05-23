@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <orderitems>
+      <OrderItem>
+        <Good>
+          <Price>1</Price>
+          <Id>100001</Id>
+          <Name>Apple</Name>
+          <Detail>UNSET</Detail>
+        </Good>
+        <Detail>None</Detail>
+        <number>1</number>
+      </OrderItem>
+      <OrderItem>
+        <Good>
+          <Price>2</Price>
+          <Id>100002</Id>
+          <Name>Banana</Name>
+          <Detail>UNSET</Detail>
+        </Good>
+        <Detail>fresh!</Detail>
+        <number>2</number>
+      </OrderItem>
+    </orderitems>
+    <Price>5</Price>
+    <Id>300001</Id>
+    <Buyer>
+      <Id>200001</Id>
+      <Name>Aaron</Name>
+    </Buyer>
+  </Order>
+  <Order>
+    <orderitems>
+      <OrderItem>
+        <Good>
+          <Price>3</Price>
+          <Id>100003</Id>
+          <Name>Cat Food</Name>
+          <Detail>UNSET</Detail>
+        </Good>
+        <Detail>My cat loves it!</Detail>
+        <number>3</number>
+      </OrderItem>
+    </orderitems>
+    <Price>9</Price>
+    <Id>300002</Id>
+    <Buyer>
+      <Id>200002</Id>
+      <Name>Billy</Name>
+    </Buyer>
+  </Order>
+  <Order>
+    <orderitems />
+    <Price>0</Price>
+    <Id>300003</Id>
+    <Buyer>
+      <Id>200003</Id>
+      <Name>Catherine</Name>
+    </Buyer>
+  </Order>
+</ArrayOfOrder>
